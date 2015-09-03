@@ -1,0 +1,202 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Wilson Resume/CV
+% XeLaTeX Template
+% Version 1.0 (22/1/2015)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Howard Wilson (https://github.com/watsonbox/cv_template_2004) with
+% extensive modifications by Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+
+
+\documentclass[10pt]{article} % Default font size
+
+\input{structure.tex} % Include the file specifying document layout
+
+\usepackage{enumitem}
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\title{Ross Meikleham -- CV} % Print the main header
+
+%------------------------------------------------
+
+\parbox{0.5\textwidth}{ % First block
+\begin{tabbing} % Enables tabbing
+\hspace{3cm} \= \hspace{4cm} \= \kill % Spacing within the block
+{\bf Address} \> 2/2 293 St Georges Road,\\ % Address line 1
+\> Glasgow, G3 6JQ \\ % Address line 2
+{\bf Date of Birth} \> 8$^{th}$ November 1992 \\ % Date of birth 
+
+\end{tabbing}}
+\hfill % Horizontal space between the two blocks
+\parbox{0.5\textwidth}{ % Second block
+\begin{tabbing} % Enables tabbing
+\hspace{3cm} \= \hspace{4cm} \= \kill % Spacing within the block
+{\bf Mobile Phone} \> 07587220100 \\ % Mobile phone
+{\bf Email} \> \href{mailto:rossmeikleham@hotmail.co.uk}{RossMeikleham@hotmail.co.uk} \\ % Email address
+{\bf Github} \> \href{https://github.com/RossMeikleham}{https://github.com/RossMeikleham}  %Github profile
+\end{tabbing}}
+%----------------------------------------------------------------------------------------
+%	PERSONAL PROFILE
+%----------------------------------------------------------------------------------------
+\section{Education}
+
+\job
+{Sep 2011 -}{Present}
+{University Of Glasgow}
+{http://www.lehmanbrothers.com}
+{Master in Science (MSci) Computing Science and Mathematics}
+{Expected to graduate July 2016\\\\
+Awards:
+\begin{itemize}
+\item{O’Reilly Academic Prize for Best Overall Performance in Assessed Coursework in level 1 Computing Science in Session 2011-12}
+\item{Level 4 Combined Honours Class Prize}
+\end{itemize}}
+
+\job
+{Sep 2009 -}{Jul 2011}
+{Shenley Brook End Sixth Form}
+{http://www.sbeschool.org.uk/}
+{A Levels}
+{Grades:
+\begin{itemize}[noitemsep]
+\item{\textit{Computing} - A*}
+\item{\textit{Mathematics} - A*}
+\item{\textit{Further Mathematics} - A}
+\end{itemize}
+Awards:
+\begin{itemize}[noitemsep]
+\item{Young Programmer Of The Year 2010 - 2011}
+\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+%	EMPLOYMENT HISTORY SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Work Experience}
+
+\job
+{Jun 2015 -}{Aug 2015}
+{Toshiba Medical Visualization Systems Europe (TMVSE)}
+{http://www.tmvse.com/}
+{Software Engineering Intern}
+{Over the course of my 13 week internship at Toshiba I developed a performance monitoring tool for one of their key infrastructure systems. This was intended to help pinpoint specific areas of their system which could be causing potental bottlenecks.
+\\
+\rule{0mm}{5mm}\textbf{Technologies:} C++11, Javascript, Qt, Mercurial, Visual Studio.}
+
+%------------------------------------------------
+
+\job
+{Nov 2013 -}{Apr 2014}
+{Farmgeek}
+{https://farmer.io/}
+{Android Developer Intern}
+{During my 3rd year at Glasgow University I worked 1 day a week at Farmgeek helping to develop a prototype Android application called Agricountant. This application was a stock control management system for livestock farms,that helps farmers measure their farms' performance and improve animal welfare standards.
+\\
+\rule{0mm}{5mm}\textbf{Technologies:} Java, Android, Git, Gradle, Linux.}
+
+
+\job
+{Jul 2012 -}{Aug 2012}
+{Gulliver's Theme Parks}
+{https://www.gulliversfun.co.uk/milton-keynes}
+{Ride Operator}
+{Over the summer of 2012 I worked as a Ride Operator at Gulliver's Land, this involved a number of responsibilities, including: 
+\begin{itemize}[noitemsep]
+\item{Following device maintenance and safety procedures to ensure the safety of guests on the rides.}
+\item{Assisting guests with any queries they may have.}
+\item{Responding to emergency situations effectively and reporting these to a manager in a timely manner.}
+\end{itemize}
+}
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS SECTION
+%----------------------------------------------------------------------------------------
+
+
+\section{Open Source Projects}
+\job
+{2014 - }{Current}
+{Gameboy Color Emulator}
+{https://github.com/RossMeikleham/PlutoBoy}
+{https://github.com/RossMeikleham/PlutoBoy}
+{A portable Gameboy color emulator written in C, built as a hobby project.} 
+
+
+\jobtwo
+{2014 - }{2015}
+{Design And Compilation Of A Front End Language For The Glasgow Parallel Reduction Machine}
+{}
+{https://github.com/RossMeikleham/GPC (Code Repository)}
+{https://github.com/RossMeikleham/Dissertation (Project Dissertation Repository)}
+{For my honours year project at the University of Glasgow I designed a language called GPC; which is a subset of C++11 extended with a couple of new keywords to specify parallel or sequential evaluation of statements in blocks of code. The language is essentially a parallel evaluated communication language which manages composition of ordinary C++ code. I wrote the compiler using Haskell.}
+    
+
+%----------------------------------------------------------------------------------------
+%    SKILLS SECTION
+%----------------------------------------------------------------------------------------
+\section{Skills}
+\bf{Languages}
+\begin{itemize}
+\item \textit{Proficient In} - C, C++, Java, Haskell
+\item \textit{Familiar With}  - Python, Javascript, Matlab, Pascal
+\end{itemize}
+
+\bf{Software Engineering}
+\begin{itemize}
+\item \textit{Version Control} - Git, Mercurial
+\item \textit{Unit Testing} - JUnit(Java), HUnit(Haskell), Qt Test(C++)
+\item \textit{Continuous Integration} - Travis CI (Used for personal/open source projects),  Jenkins
+\item \textit{Agile Methodologies} - Test Driven Development(TDD)
+\end{itemize}
+
+\bf{Linux}
+\begin{itemize}
+\item \textit{Distributions} - Fedora, Arch Linux 
+\item \textit{Shells} - Bash, Zsh
+\end{itemize}
+
+\bf{Other}
+\begin{itemize}
+\item \textit{Frameworks} - Qt, SDL
+\item \textit{Other Technologies} - Vim, \LaTeX
+\end{itemize}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+Functional Programming, Open Source Development, Linux, Parallel Programming\\\\
+
+
+%----------------------------------------------------------------------------------------
+%	REFEREE SECTION
+%----------------------------------------------------------------------------------------
+
+
+\textit{References can be provided upon request}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
